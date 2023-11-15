@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "upwork-web-crawler"
+version = "1"
+description = "A project fetcher for upwork"
+authors = ["Viraj Shah <viraj.v.shah03@gmail.com>"]
+license = "GNU Affero General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+selenium = "^4.15.2"
+
+[tool.poetry.group.dev.dependencies]
+pydantic = "^2.5.0"
+argparse = "^1.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
