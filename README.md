@@ -50,7 +50,7 @@ To use the api:
 ```bash
 uvicorn api:app --reload
 ```
-An examlpe request is
+An example request is
 
 ```bash
 curl -X 'POST' \
