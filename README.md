@@ -44,3 +44,21 @@ Now you should be in your poetry shell to execute the command below.
 ```bash
 python main.py --topic "Machine Learning" --n 10
 ```
+
+To use the api:
+
+```bash
+uvicorn api:app --reload
+```
+An examlpe request is
+
+```bash
+curl -X 'POST' \
+  'http://127.0.0.1:8000/scrape-projects/' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "topic": "Machine learning",
+  "num_projects": 10
+}'
+```
+
