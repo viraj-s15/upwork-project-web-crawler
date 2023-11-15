@@ -44,5 +44,3 @@ Now you should be in your poetry shell to execute the command below.
 ```bash
 python main.py --topic "Machine Learning" --n 10
 ```
-
-It is also available as a FastAPI app, look at api.py for more information
