@@ -9,7 +9,9 @@
 
 ## About <a name = "about"></a>
 
-I will use this get projects from upwork
+I will use this get projects from upwork.
+
+**I do not condone mass web scraping, this exists for personal automation reasons**
 
 ## Getting Started <a name = "getting_started"></a>
 
