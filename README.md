@@ -61,3 +61,9 @@ curl -X 'POST' \
   "num_projects": 10
 }'
 ```
+You can also run the api using docker
+
+```
+docker build -t upwork-api .
+docker run -p 8000:8000 upwork-api
+```
