@@ -28,6 +28,7 @@ yay -S python-poetry
 
 Once you get poetry simply run the following
 
+I prefer to no-cache flag to be used while development
 
 ```bash
 poetry install --no-cache
